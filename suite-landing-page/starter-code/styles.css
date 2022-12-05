@@ -191,14 +191,13 @@ h2{
 
 #symbol-2{
     border: solid 2px #f3ede7;
-    border-color:  transparent transparent #f3ede7 transparent;
-    border-radius: 0 50%/52px 52px 0;
+    border-color:  transparent transparent transparent #f3ede7;
     position: absolute;
-    width: 64.05px;
-    height: 52px;
+    width: 50px;
+    height: 50px;
     left: 517.2px;
     top: 161.15px;
-    border: 2px solid #FAF8F6;
+    border-bottom-left-radius: 100%;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
@@ -778,7 +777,6 @@ strong{
         right: 162.73px;
         top: 261px;
         bottom: 447px;
-        border: 2px solid #FAF8F6;
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
     .sec_background{
